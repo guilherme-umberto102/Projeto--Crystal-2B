@@ -1,32 +1,32 @@
 *{
-margin: 0;
-border: 0;
-padding: 0;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.container{
+.container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 header, footer {
-background-color: #008374;
-display: flex;
-align-items: center;
-justify-content: space-between;
-color: white;
-padding: 30px 50px;
+    background-color: #008374;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 0px 70px;
 }
 a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 15px;
 }
 .inicio {
-    background-color: #23a092;
+    background-color: #23A092;
     color: white;
-    padding: 30px 70px 0px;
+    padding: 30px 70px 0;
     height: 430px;
 }
 .titulo-inicio{
@@ -39,20 +39,21 @@ a {
 .caixa {
     border: 1px solid black;
     width: 200px;
-    height: 130px;
-    display: 130px;
+    height: 150px;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 h4 {
     text-align: center;
+
 }
 .diferente {
     margin: 80px 200px;
 }
 .plano {
-    background-color: white;
+    background-color: #EDECEC;
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -62,26 +63,27 @@ h4 {
 .linha {
     height: 20px;
     width: 300px;
-    margin: 10px;
 }
 .clara {
-    background-color: #f6a256;
+    background-color: #F6A256;
 }
 .escuro {
-    background-color: #ff912d;
+    background-color: #FF912D;
 }
 h3 {
     font-size: 30px;
-    margin-top: 10px;
 }
-.pianos .container {
-margin: 0 200px;
+.planos {
+    margin: 0 100px 50px;
+}
+.planos .container {
+    margin: 0 200px;
 }
 .beneficio {
     font-size: 20px;
 }
 span {
-    color: gray;
+    color: lightgray;
 }
 .texto {
     font-size: 24px;
@@ -92,7 +94,7 @@ footer nav {
     flex-direction: column;
     align-items: flex-start;
 }
-input {
+input{
     width: 300px;
     height: 30px;
     font-size: 20px;
@@ -107,10 +109,11 @@ button {
     font-size: 20px;
     background-color: white;
 }
+
 .texto-fim {
     font-size: 26px;
 }
-.news {
+.news{
     width: 370px;
 }
 form {
@@ -119,31 +122,31 @@ form {
     align-items: flex-start;
 }
 .contato {
-    background-color: #23a092;
+    background-color: #23A092;
     padding: 0 100px;
-    height: 500px;
+    height: 550px;
     display: flex;
     align-items: center;
 }
-label {
+label{
     color: white;
-}
-label {
-    background-color: #e8e8e8;
     font-size: 30px;
 }
-input {
-    background-color: #e8e8e8;
+input{
+    background-color: #E8E8E8;
     font-size: 25px;
     padding: 5px;
 }
+footer{
+    padding: 30px 50px;
+}
 a{
-transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.3s;
 }
 a:hover {
     color: black;
+    font-size: 30px;
 }
-img:hover {
+img:hover{
     scale: 2;
 }
-
